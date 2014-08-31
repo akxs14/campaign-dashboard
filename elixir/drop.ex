@@ -35,4 +35,15 @@ defmodule Drop do
     :math.sqrt(2 * 3.71 * distance)
   end
 
+  def fall_velocity_tuple({:earth, distance}) when distance >= 0 do
+    :math.sqrt(2 * 9.8 * distance)
+  end
+
+  def fall_velocity_tuple({:moon, distance}) when distance >= 0 do
+    :math.sqrt(2 * 1.6 * distance)
+  end
+
+  def fall_velocity_tuple({:mars, distance}) when distance >= 0 do
+    :math.sqrt(2 * 3.71 * distance)
+  end
 end
