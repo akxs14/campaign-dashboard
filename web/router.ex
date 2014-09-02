@@ -3,7 +3,7 @@ defmodule CampaignDashboard.Router do
 
   get "/", CampaignDashboard.PageController, :index, as: :pages
 
-  get   "/campaigns",     CampaignDashboard.CampaignController, :campaigns
+  get   "/campaigns",     CampaignDashboard.CampaignController, :list
   get   "/campaigns/:id", CampaignDashboard.CampaignController, :show
   post  "/campaigns",     CampaignDashboard.CampaignController, :create
 
