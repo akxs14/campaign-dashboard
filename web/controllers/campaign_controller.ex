@@ -1,7 +1,7 @@
 defmodule CampaignDashboard.CampaignController do
   use Phoenix.Controller
 
-  def campaigns(conn, _params) do
+  def list(conn, _params) do
     render conn, "campaigns"
   end
 
