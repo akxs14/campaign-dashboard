@@ -1,4 +1,4 @@
-defmodule CampaignDashboard.PageController do
+defmodule CampaignDashboard.CampaignController do
   use Phoenix.Controller
 
   def campaigns(conn, _params) do
