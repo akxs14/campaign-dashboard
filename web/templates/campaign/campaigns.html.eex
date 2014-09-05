@@ -1,1 +1,49 @@
-<h1>ba oi</h1>
+<h2 class="sub-header">my campaigns</h2>
+<div class="table-responsive">
+  <table class="table table-striped">
+    <tbody>
+      <tr id="header-row">
+        <th>id</th>
+        <th>name</th>
+        <th>status</th>
+        <th>remaining days</th>
+        <th>state</th>
+      </tr>
+      <tr>
+        <td>101</td>
+        <td class="campaign-name-cell"><a href="/campaigns/101">Easyjet September 2014</a></td>
+        <td>active</td>
+        <td>25</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>105</td>
+        <td class="campaign-name-cell"><a href="/campaigns/102">Edeka September 2014</a></td>
+        <td>active</td>
+        <td>25</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>102</td>
+        <td class="campaign-name-cell"><a href="/campaigns/102">Easyjet October 2014</a></td>
+        <td>planned</td>
+        <td>31</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>102</td>
+        <td class="campaign-name-cell"><a href="/campaigns/102">Edeka October 2014</a></td>
+        <td>planned</td>
+        <td>31</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>103</td>
+        <td class="campaign-name-cell"><a href="/campaigns/102">Easyjet August 2014</a></td>
+        <td>finished</td>
+        <td>0</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</div>

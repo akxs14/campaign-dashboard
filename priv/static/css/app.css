@@ -92,3 +92,17 @@ body {
     border-bottom: 0;
   }
 }
+
+#header-row th {
+  background-color: white;
+  border-top: 0px;
+  text-align: center;
+}
+
+.table {
+  text-align: center;
+}
+
+.campaign-name-cell {
+  text-align: left;
+}
