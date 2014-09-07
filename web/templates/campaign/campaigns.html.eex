@@ -1,4 +1,4 @@
-<h2 class="sub-header">my campaigns</h2>
+<h3 class="sub-header">my campaigns</h3>
 
 <div class="panel-group" id="accordion">
 
@@ -18,7 +18,7 @@
     </div>
     <div id="101" class="panel-collapse collapse">
       <div class="panel-body">
-                Contents panel 1
+        Contents panel 1
       </div>
     </div>
   </div>
@@ -39,7 +39,7 @@
     </div>
     <div id="105" class="panel-collapse collapse">
       <div class="panel-body">
-                Contents panel 2
+        Contents panel 2
       </div>
     </div>
   </div>
@@ -60,7 +60,7 @@
     </div>
     <div id="102" class="panel-collapse collapse">
       <div class="panel-body">
-                Contents panel 3
+        Contents panel 3
       </div>
     </div>
   </div>
@@ -81,7 +81,7 @@
     </div>
     <div id="106" class="panel-collapse collapse">
       <div class="panel-body">
-                Contents panel 3
+        Contents panel 3
       </div>
     </div>
   </div>
@@ -102,59 +102,7 @@
     </div>
     <div id="100" class="panel-collapse collapse">
       <div class="panel-body">
-                Contents panel 3
+        Contents panel 3
       </div>
     </div>
   </div>
-
-<br />
-<br />
-
-<div class="table-responsive">
-  <table class="table table-striped">
-    <tbody>
-      <tr id="header-row">
-        <th>id</th>
-        <th>name</th>
-        <th>status</th>
-        <th>remaining days</th>
-        <th>state</th>
-      </tr>
-      <tr>
-        <td>101</td>
-        <td class="campaign-name-cell"><a href="/campaigns/101">Easyjet September 2014</a></td>
-        <td>active</td>
-        <td>25</td>
-        <td><a href="/campaigns/101" title="all good!"><img src="images/green.png"></img></a></td>
-      </tr>
-      <tr>
-        <td>105</td>
-        <td class="campaign-name-cell"><a href="/campaigns/102">Edeka September 2014</a></td>
-        <td>active</td>
-        <td>25</td>
-        <td><a href="/campaigns/105" title="this campaign needs your attention"><img src="images/red.png"></img></a></td>
-      </tr>
-      <tr>
-        <td>102</td>
-        <td class="campaign-name-cell"><a href="/campaigns/102">Easyjet October 2014</a></td>
-        <td>planned</td>
-        <td>31</td>
-        <td><a href="/campaigns/102" title="not started yet"><img src="images/yellow.png"></img></a></td>
-      </tr>
-      <tr>
-        <td>106</td>
-        <td class="campaign-name-cell"><a href="/campaigns/102">Edeka October 2014</a></td>
-        <td>planned</td>
-        <td>31</td>
-        <td><a href="/campaigns/106" title="not started yet"><img src="images/yellow.png"></img></a></td>
-      </tr>
-      <tr>
-        <td>103</td>
-        <td class="campaign-name-cell"><a href="/campaigns/102">Easyjet August 2014</a></td>
-        <td>finished</td>
-        <td>0</td>
-        <td><a href="/campaigns/103" title="finished campaign"><img src="images/grey.png"></img></a></td>
-      </tr>
-    </tbody>
-  </table>
-</div>

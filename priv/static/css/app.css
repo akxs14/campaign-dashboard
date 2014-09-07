@@ -107,6 +107,10 @@ body {
   text-align: left;
 }
 
+.panel div {
+  font-size: 0.98em;
+}
+
 .campaign-id-header {
   width: 70px;
   float:left;
