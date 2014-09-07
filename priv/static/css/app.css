@@ -106,3 +106,28 @@ body {
 .campaign-name-cell {
   text-align: left;
 }
+
+.campaign-id-header {
+  width: 70px;
+  float:left;
+}
+
+.campaign-name-header {
+  width: 400px;
+  float:left;
+  color: #3299CC;
+}
+
+.campaign-status-header {
+  width: 100px;
+  float:left;
+}
+
+.campaign-rem-days-header {
+  width: 70px;
+  float:left;
+}
+
+.campaign-state-header {
+  text-align: right;
+}

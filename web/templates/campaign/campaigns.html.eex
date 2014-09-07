@@ -1,4 +1,115 @@
 <h2 class="sub-header">my campaigns</h2>
+
+<div class="panel-group" id="accordion">
+
+  <div class="panel">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#101">
+          <div>
+            <div class="campaign-id-header">101</div>  
+            <div class="campaign-name-header">Easyjet September 2014</div>
+            <div class="campaign-status-header">active</div>
+            <div class="campaign-rem-days-header">25</div>
+            <img class="campaign-state-header" src="images/green.png"></img>
+          </div>
+        </a>
+      </h4>
+    </div>
+    <div id="101" class="panel-collapse collapse">
+      <div class="panel-body">
+                Contents panel 1
+      </div>
+    </div>
+  </div>
+
+  <div class="panel">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#105">
+          <div>
+            <div class="campaign-id-header">105</div>  
+            <div class="campaign-name-header">Edeka September 2014</div>
+            <div class="campaign-status-header">active</div>
+            <div class="campaign-rem-days-header">25</div>
+            <img class="campaign-state-header" src="images/red.png"></img>
+          </div>
+        </a>
+      </h4>
+    </div>
+    <div id="105" class="panel-collapse collapse">
+      <div class="panel-body">
+                Contents panel 2
+      </div>
+    </div>
+  </div>
+
+  <div class="panel">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#102">
+          <div>
+            <div class="campaign-id-header">102</div>  
+            <div class="campaign-name-header">Easyjet October 2014</div>
+            <div class="campaign-status-header">planned</div>
+            <div class="campaign-rem-days-header">31</div>
+            <img class="campaign-state-header" src="images/yellow.png"></img>
+          </div>
+        </a>
+      </h4>
+    </div>
+    <div id="102" class="panel-collapse collapse">
+      <div class="panel-body">
+                Contents panel 3
+      </div>
+    </div>
+  </div>
+
+  <div class="panel">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#106">
+          <div>
+            <div class="campaign-id-header">106</div>  
+            <div class="campaign-name-header">Edeka October 2014</div>
+            <div class="campaign-status-header">planned</div>
+            <div class="campaign-rem-days-header">31</div>
+            <img class="campaign-state-header" src="images/yellow.png"></img>
+          </div>
+        </a>
+      </h4>
+    </div>
+    <div id="106" class="panel-collapse collapse">
+      <div class="panel-body">
+                Contents panel 3
+      </div>
+    </div>
+  </div>
+
+  <div class="panel">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#100">
+          <div>
+            <div class="campaign-id-header">100</div>  
+            <div class="campaign-name-header">Easyjet August 2014</div>
+            <div class="campaign-status-header">finished</div>
+            <div class="campaign-rem-days-header">31</div>
+            <img class="campaign-state-header" src="images/grey.png"></img>
+          </div>
+        </a>
+      </h4>
+    </div>
+    <div id="100" class="panel-collapse collapse">
+      <div class="panel-body">
+                Contents panel 3
+      </div>
+    </div>
+  </div>
+
+<br />
+<br />
+
 <div class="table-responsive">
   <table class="table table-striped">
     <tbody>
