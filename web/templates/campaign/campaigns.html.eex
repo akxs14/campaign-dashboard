@@ -20,7 +20,10 @@
         <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#101">
           <div>
             <div class="campaign-id-cell">101</div>  
-            <div class="campaign-name-cell">Easyjet September 2014</div>
+            <div class="campaign-name-cell">
+              Easyjet September 2014
+              <i class="indicator glyphicon glyphicon-chevron-right pull-right"></i>
+            </div>
             <div class="campaign-status-cell">active</div>
             <div class="campaign-rem-days-cell">25</div>
             <img class="campaign-state-cell" src="images/green.png"></img>
@@ -30,7 +33,7 @@
     </div>
     <div id="101" class="panel-collapse collapse">
       <div class="panel-body">
-        Contents panel 1
+        Contents panel 101
       </div>
     </div>
   </div>
