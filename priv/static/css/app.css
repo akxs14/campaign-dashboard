@@ -93,16 +93,62 @@ body {
   }
 }
 
-#header-row th {
-  background-color: white;
-  border-top: 0px;
-  text-align: center;
+.panel div {
+  font-size: 0.99em;
 }
 
-.table {
-  text-align: center;
+/*
+ *  Campaign listing 'table' header style
+ */
+.campaign-id-header {
+  width: 70px;
+  float:left;
+}
+
+.campaign-name-header {
+  width: 320px;
+  float:left;
+}
+
+.campaign-status-header {
+  width: 100px;
+  float:left;
+}
+
+.campaign-rem-days-header {
+  width: 140px;
+  float:left;
+}
+
+.campaign-state-header {
+  text-align: right;
+}
+
+/*
+ *  Campaign listing 'table' style
+ */
+.campaign-id-cell {
+  width: 70px;
+  float:left;
 }
 
 .campaign-name-cell {
-  text-align: left;
+  width: 320px;
+  float:left;
+  color: #3299CC;
+  padding-right: 15px;
+}
+
+.campaign-status-cell {
+  width: 140px;
+  float:left;
+}
+
+.campaign-rem-days-cell {
+  width: 110px;
+  float:left;
+}
+
+.campaign-state-cell {
+  text-align: right;
 }

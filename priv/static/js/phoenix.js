@@ -315,4 +315,16 @@
     return exports;
   });
 
+  $(".openpanel").on("click", function() {
+    $("#panel3").collapse('show');
+  });
+  $(".closepanel").on("click", function() {
+    $("#panel3").collapse('hide');
+  });
+
+  /* ensure any open panels are closed before showing selected */
+  $('#accordion').on('show.bs.collapse', function () {
+    $('#accordion .in').collapse('hide');
+  });
+
 }).call(this);
