@@ -5,13 +5,25 @@
   <div class="panel">
     <div class="panel-heading">
       <h4 class="panel-title">
+        <div class="campaign-id-header">id</div>  
+        <div class="campaign-name-header">campaign name</div>
+        <div class="campaign-status-header">status</div>
+        <div class="campaign-rem-days-header">remaining days</div>
+        <div class="campaign-state-header">state</div>
+      </h4>
+    </div>
+  </div>
+
+  <div class="panel">
+    <div class="panel-heading">
+      <h4 class="panel-title">
         <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#101">
           <div>
-            <div class="campaign-id-header">101</div>  
-            <div class="campaign-name-header">Easyjet September 2014</div>
-            <div class="campaign-status-header">active</div>
-            <div class="campaign-rem-days-header">25</div>
-            <img class="campaign-state-header" src="images/green.png"></img>
+            <div class="campaign-id-cell">101</div>  
+            <div class="campaign-name-cell">Easyjet September 2014</div>
+            <div class="campaign-status-cell">active</div>
+            <div class="campaign-rem-days-cell">25</div>
+            <img class="campaign-state-cell" src="images/green.png"></img>
           </div>
         </a>
       </h4>
@@ -28,11 +40,11 @@
       <h4 class="panel-title">
         <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#105">
           <div>
-            <div class="campaign-id-header">105</div>  
-            <div class="campaign-name-header">Edeka September 2014</div>
-            <div class="campaign-status-header">active</div>
-            <div class="campaign-rem-days-header">25</div>
-            <img class="campaign-state-header" src="images/red.png"></img>
+            <div class="campaign-id-cell">105</div>  
+            <div class="campaign-name-cell">Edeka September 2014</div>
+            <div class="campaign-status-cell">active</div>
+            <div class="campaign-rem-days-cell">25</div>
+            <img class="campaign-state-cell" src="images/red.png"></img>
           </div>
         </a>
       </h4>
@@ -49,11 +61,11 @@
       <h4 class="panel-title">
         <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#102">
           <div>
-            <div class="campaign-id-header">102</div>  
-            <div class="campaign-name-header">Easyjet October 2014</div>
-            <div class="campaign-status-header">planned</div>
-            <div class="campaign-rem-days-header">31</div>
-            <img class="campaign-state-header" src="images/yellow.png"></img>
+            <div class="campaign-id-cell">102</div>  
+            <div class="campaign-name-cell">Easyjet October 2014</div>
+            <div class="campaign-status-cell">planned</div>
+            <div class="campaign-rem-days-cell">31</div>
+            <img class="campaign-state-cell" src="images/yellow.png"></img>
           </div>
         </a>
       </h4>
@@ -70,11 +82,11 @@
       <h4 class="panel-title">
         <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#106">
           <div>
-            <div class="campaign-id-header">106</div>  
-            <div class="campaign-name-header">Edeka October 2014</div>
-            <div class="campaign-status-header">planned</div>
-            <div class="campaign-rem-days-header">31</div>
-            <img class="campaign-state-header" src="images/yellow.png"></img>
+            <div class="campaign-id-cell">106</div>  
+            <div class="campaign-name-cell">Edeka October 2014</div>
+            <div class="campaign-status-cell">planned</div>
+            <div class="campaign-rem-days-cell">31</div>
+            <img class="campaign-state-cell" src="images/yellow.png"></img>
           </div>
         </a>
       </h4>
@@ -91,11 +103,11 @@
       <h4 class="panel-title">
         <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#100">
           <div>
-            <div class="campaign-id-header">100</div>  
-            <div class="campaign-name-header">Easyjet August 2014</div>
-            <div class="campaign-status-header">finished</div>
-            <div class="campaign-rem-days-header">31</div>
-            <img class="campaign-state-header" src="images/grey.png"></img>
+            <div class="campaign-id-cell">100</div>  
+            <div class="campaign-name-cell">Easyjet August 2014</div>
+            <div class="campaign-status-cell">finished</div>
+            <div class="campaign-rem-days-cell">31</div>
+            <img class="campaign-state-cell" src="images/grey.png"></img>
           </div>
         </a>
       </h4>
