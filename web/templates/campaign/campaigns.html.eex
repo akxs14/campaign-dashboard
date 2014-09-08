@@ -119,7 +119,7 @@
               <i class="indicator glyphicon glyphicon-chevron-right pull-right"></i>
             </div>
             <div class="campaign-status-cell">finished</div>
-            <div class="campaign-rem-days-cell">31</div>
+            <div class="campaign-rem-days-cell">0</div>
             <img class="campaign-state-cell" src="images/grey.png"></img>
           </div>
         </a>
