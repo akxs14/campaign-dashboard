@@ -30,8 +30,27 @@
       </h4>
     </div>
     <div id="101" class="panel-collapse collapse">
-      <div class="panel-body">
-        
+      <div class="panel-body container">
+
+        <div class="row">
+          <div class="col-xs-6"><p>Remaining budget (eur):</p></div>
+          <div class="col-xs-6"><p>Remaining budget (eur):</p></div>
+        </div>
+        <div class="row">
+          <div class="col-xs-4">
+            <canvas id="pastDayGraph" width="180" height="180"></canvas>
+          </div>
+          <div class="col-xs-4">
+            <canvas id="todayGraph" width="180" height="180"></canvas>
+          </div>
+          <div class="col-xs-4">
+            <canvas id="overallGraph" width="180" height="180"></canvas>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-6"><p>Error: </p></div>
+        </div>
+
       </div>
     </div>
   </div>

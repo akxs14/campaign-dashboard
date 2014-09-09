@@ -152,3 +152,7 @@ body {
 .campaign-state-cell {
   text-align: right;
 }
+
+#pastDayGraph, #todayGraph, #overallGraph {
+  border: 1px solid black;
+}
