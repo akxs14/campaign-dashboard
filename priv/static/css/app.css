@@ -153,6 +153,6 @@ body {
   text-align: right;
 }
 
-#pastDayGraph, #todayGraph, #overallGraph {
-  border: 1px solid black;
+p {
+  font-size: 1.1em;
 }
