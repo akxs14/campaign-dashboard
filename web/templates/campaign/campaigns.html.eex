@@ -38,13 +38,13 @@
         </div>
         <div class="row">
           <div class="col-xs-4">
-            <canvas id="pastDayGraph" width="180" height="180"></canvas>
+            <canvas id="pastDayGraph" width="185" height="180"></canvas>
           </div>
           <div class="col-xs-4">
-            <canvas id="todayGraph" width="180" height="180"></canvas>
+            <canvas id="todayGraph" width="185" height="180"></canvas>
           </div>
           <div class="col-xs-4">
-            <canvas id="overallGraph" width="180" height="180"></canvas>
+            <canvas id="overallGraph" width="185" height="180"></canvas>
           </div>
         </div>
         <div class="row">
