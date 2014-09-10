@@ -74,7 +74,26 @@
     </div>
     <div id="105" class="panel-collapse collapse">
       <div class="panel-body">
-        Contents panel 2
+
+        <div class="row">
+          <div class="col-xs-6"><p>Remaining budget (eur):</p></div>
+          <div class="col-xs-6"><p>Remaining budget (eur):</p></div>
+        </div>
+        <div class="row">
+          <div class="col-xs-4">
+            <canvas id="pastDayGraph" width="185" height="180"></canvas>
+          </div>
+          <div class="col-xs-4">
+            <canvas id="todayGraph" width="185" height="180"></canvas>
+          </div>
+          <div class="col-xs-4">
+            <canvas id="overallGraph" width="185" height="180"></canvas>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-6"><p>Error: </p></div>
+        </div>
+
       </div>
     </div>
   </div>
@@ -98,7 +117,26 @@
     </div>
     <div id="102" class="panel-collapse collapse">
       <div class="panel-body">
-        Contents panel 3
+
+        <div class="row">
+          <div class="col-xs-6"><p>Remaining budget (eur):</p></div>
+          <div class="col-xs-6"><p>Remaining budget (eur):</p></div>
+        </div>
+        <div class="row">
+          <div class="col-xs-4">
+            <canvas id="pastDayGraph" width="185" height="180"></canvas>
+          </div>
+          <div class="col-xs-4">
+            <canvas id="todayGraph" width="185" height="180"></canvas>
+          </div>
+          <div class="col-xs-4">
+            <canvas id="overallGraph" width="185" height="180"></canvas>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-6"><p>Error: </p></div>
+        </div>
+
       </div>
     </div>
   </div>
@@ -122,7 +160,26 @@
     </div>
     <div id="106" class="panel-collapse collapse">
       <div class="panel-body">
-        Contents panel 3
+
+        <div class="row">
+          <div class="col-xs-6"><p>Remaining budget (eur):</p></div>
+          <div class="col-xs-6"><p>Remaining budget (eur):</p></div>
+        </div>
+        <div class="row">
+          <div class="col-xs-4">
+            <canvas id="pastDayGraph" width="185" height="180"></canvas>
+          </div>
+          <div class="col-xs-4">
+            <canvas id="todayGraph" width="185" height="180"></canvas>
+          </div>
+          <div class="col-xs-4">
+            <canvas id="overallGraph" width="185" height="180"></canvas>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-6"><p>Error: </p></div>
+        </div>
+
       </div>
     </div>
   </div>
@@ -146,7 +203,26 @@
     </div>
     <div id="100" class="panel-collapse collapse">
       <div class="panel-body">
-        Contents panel 3
+
+        <div class="row">
+          <div class="col-xs-6"><p>Remaining budget (eur):</p></div>
+          <div class="col-xs-6"><p>Remaining budget (eur):</p></div>
+        </div>
+        <div class="row">
+          <div class="col-xs-4">
+            <canvas id="pastDayGraph" width="185" height="180"></canvas>
+          </div>
+          <div class="col-xs-4">
+            <canvas id="todayGraph" width="185" height="180"></canvas>
+          </div>
+          <div class="col-xs-4">
+            <canvas id="overallGraph" width="185" height="180"></canvas>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-6"><p>Error: </p></div>
+        </div>
+
       </div>
     </div>
   </div>
