@@ -9,6 +9,10 @@ defmodule CampaignDashboard.CampaignController do
     render conn, "campaigns"
   end
 
+  def new(conn, _params) do
+    render conn, "new"
+  end
+
   def create(conn, _params) do
     render conn, "campaigns"
   end
