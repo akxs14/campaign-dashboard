@@ -11,7 +11,7 @@ end
 
 # See all campaigns related to the user
 get '/campaigns' do
-  slim :campaigns
+  slim :campaigns_list
 end
 
 # submit a new campaign to generate the json,
@@ -22,6 +22,7 @@ end
 
 # show the new campaign page
 get '/campaigns/new' do
+  slim :campaigns_new
 end
 
 # show the panel with the campaign details
