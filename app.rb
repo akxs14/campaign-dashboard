@@ -1,6 +1,10 @@
 require 'sinatra'
 require 'slim'
 
+configure do
+  set :public_folder, 'public'
+end
+
 get '/' do
   "pipabu!"
 end
