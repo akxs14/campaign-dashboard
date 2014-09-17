@@ -1,1 +1,80 @@
-span bla bla bla
+form class="form-horizontal"
+
+  div class="form-group"
+    label class="col-xs-4 control-label" for="campaign-name" Campaign Name
+    div class="col-xs-8"
+      input id="campaign-name" name="campaign-name" type="text" placeholder="Your campaign" class="form-control input-md" required=""
+
+  hr
+
+  div class="form-group"
+    label class="col-xs-4 control-label" for="campaign-type" Campaign Type
+    div class="col-xs-4"
+      select id="campaign-type" name="campaign-type" class="form-control"
+        option value="CPM" CPM
+        option value="CPC" CPC
+
+  div class="form-group"
+    label class="col-xs-4 control-label" for="action-budget" Monetary Budget
+    div class="col-xs-8"
+      input id="action-budget" name="action-budget" type="text" placeholder="Your action budget (clicks or impressions)" class="form-control input-md"
+      span class="help-block" Impressions for CPM, clicks for CPC
+
+  div class="form-group"
+    label class="col-xs-4 control-label" for="currency" Currency
+    div class="col-xs-4"
+      select id="currency" name="currency" class="form-control"
+        option value="eur" EUR - €
+        option value="usd" USD - $
+        option value="gbp" GBP - £
+
+  div class="form-group"
+    label class="col-xs-4 control-label" for="monetary-budget" Monetary Budget
+    div class="col-xs-8"
+      input id="monetary-budget" name="monetary-budget" type="text"   placeholder="Your budget for this campaign" class="" class="form-control input-md"
+      span class="help-block" The budget will be in the selected currency
+
+  hr
+
+  <!-- prepei na valw ta templates edw -->
+  div class="form-group"
+    label class="col-xs-4 control-label" for="ad-format" Selected Ad Formats 
+    div class="col-xs-4"
+      select id="ad-format" name="ad-format" class="form-control" multiple="multiple"
+        option value="320x250" 320x250
+        option value="320x50" 320x50
+        option value="1024x768" 1024x768
+        option value="1024x1024" 1024x1024
+        option value="768x1024" 768x1024
+        option value="768x90" 768x90
+        option value="728x90" 728x90
+
+  div class="form-group"
+    label class="col-xs-4 control-label" for="filebutton" Upload Creative Images
+    div class="col-xs-4"
+      input id="filebutton" name="filebutton" class="input-file" type="file"
+
+  div class="form-group"
+    label class="col-xs-4 control-label" for="uploaded-files" Uploaded Files
+    div class="col-xs-8"
+      textarea class="form-control" id="uploaded-files" name="uploaded-files"
+
+  hr
+
+  div class="form-group"
+    label class="col-xs-4 control-label" for="add-input-var" Add Input Variable
+    div class="col-xs-6"
+      input id="add-input-var" name="add-input-var" type="text" placeholder="placeholder" class="form-control input-md"
+    div class="col-xs-2"
+      button id="cmd-add-input-var" name="cmd-add-input-var" class="btn btn-primary" Add
+
+  div class="form-group"
+    label class="col-xs-4 control-label" for="input-variables" Input Variables
+    div class="col-xs-8"
+      textarea class="form-control" id="input-variables" name="input-variables"
+
+  hr
+
+
+
+
