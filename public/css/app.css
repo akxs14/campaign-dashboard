@@ -157,3 +157,11 @@ p {
   font-size: 1.1em;
 }
 
+#templates-grid {
+  height: 100px;
+  overflow: auto;
+}
+
+.tmpl-list-item {
+  margin-left: 10px;
+}
