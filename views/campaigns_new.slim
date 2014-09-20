@@ -58,13 +58,13 @@ form class="form-horizontal"
   div class="form-group"
     label class="col-xs-4 control-label" for="input-variables" Input Variables
     div class="col-xs-8"
-      textarea class="form-control" id="input-variables" name="input-variables"
+      textarea class="form-control" id="input-variables" name="input-variables" Gender POCode
 
   hr
 
   <!-- prepei na valw ta templates edw -->
   div class="form-group"
-    label class="col-xs-4 control-label" for="ad-format" Selected Ad Formats 
+    label class="col-xs-4 control-label" for="ad-format" Selected Ad Format 
     div class="col-xs-8" id="templates-grid"
       table
         tr 
@@ -89,22 +89,85 @@ form class="form-horizontal"
           td
             a href="#" template 728x90
 
+  div class="form-group"
+
+    / Input variable
+    div class="col-xs-6" id="input-var1-div"
+      label class="col-xs-4 control-label" for="campaign-name" Gender
+      div class="col-xs-8"
+        input id="gender-input" type="text" class="form-control input-md"
+  
+    / Output variable
+    div class="col-xs-6"
+      label class="col-xs-4 control-label" for="background" Background
+      div class="col-xs-8"
+        select id="background" name="background" class="form-control"
+          option value="file1.jpg" file1.jpg
+          option value="file2.jpg" file2.jpg
+          option value="file3.jpg" file3.jpg
 
   div class="form-group"
-    label class="col-xs-2" var 1
-    label class="col-xs-2" var 2
-    label class="col-xs-2" var 3
-    label class="col-xs-2" var 4
+
+    / Input variable
+    div class="col-xs-6" id="input-var2-div"
+      label class="col-xs-4 control-label" for="campaign-name" IsWeekend
+      div class="col-xs-8"
+        input id="pocode-isweekend" type="text" class="form-control input-md"
+  
+    / Output variable
+    div class="col-xs-6" id="input-var3-div"
+      label class="col-xs-4 control-label" for="background" Logo
+      div class="col-xs-8"
+        select id="background" name="background" class="form-control"
+          option value="file1.jpg" file1.jpg
+          option value="file2.jpg" file2.jpg
+          option value="file3.jpg" file3.jpg
 
   div class="form-group"
-    div class="col-xs-2"
-      input id="var1" name="var1" type="text" class="form-control input-md"
-    div class="col-xs-2"
-      input id="var2" name="var2" type="text" class="form-control input-md"
-    div class="col-xs-2"
-      input id="var3" name="var3" type="text" class="form-control input-md"
-    div class="col-xs-2"
-      input id="var4" name="var4" type="text" class="form-control input-md"
+
+    / Input variable
+    div class="col-xs-6" id="input-var4-div"
+  
+    / Output variable
+    div class="col-xs-6"
+      label class="col-xs-4 control-label" for="background" Text
+      div class="col-xs-8"
+        input id="text-input" type="text" class="form-control input-md"
+
+  div class="form-group"
+    div class="col-md-3"
+      button id="cmd-add-rule" class="btn btn-primary" Add Rule
+
+    div class="col-md-9" id="tmpl-preview-compose-stage"
+
+  hr
+
+  div class="form-group"
+    div class="col-md-8" id="rules-listing-grid"
+      table
+        tr
+          td
+            a href="#" class="remove-rules" remove
+          td class="col-md-10"
+            a href="#" Gender:male, IsWeekend:false
+        tr
+          td
+            a href="#" class="remove-rules" remove
+          td class="col-md-10"
+            a href="#" Gender:male, IsWeekend:true
+        tr
+          td
+            a href="#" class="remove-rules" remove
+          td class="col-md-10"
+            a href="#" Gender:female, IsWeekend:false
+        tr
+          td
+            a href="#" class="remove-rules" remove
+          td class="col-md-10"
+            a href="#" Gender:female, IsWeekend:true
+
+
+    div class="col-md-7" id="tmpl-preview-list-rules"
 
 
   hr
@@ -113,4 +176,4 @@ form class="form-horizontal"
     div class="col-md-8"
       button id="cmd-launch" name="cmd-launch" class="btn btn-success" Launch Campaign
 
-
+  hr

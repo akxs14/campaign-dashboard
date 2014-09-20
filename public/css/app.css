@@ -165,3 +165,12 @@ p {
 .tmpl-list-item {
   margin-left: 10px;
 }
+
+#rules-listing-grid {
+  height: 100px;
+  overflow: auto;
+}
+
+.remove-rules {
+  color: red;
+}
