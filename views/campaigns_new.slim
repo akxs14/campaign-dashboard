@@ -58,7 +58,9 @@ form class="form-horizontal"
   div class="form-group"
     label class="col-xs-4 control-label" for="input-variables" Input Variables
     div class="col-xs-8"
-      textarea class="form-control" id="input-variables" name="input-variables" Gender POCode
+      select class="form-control" id="input-variables" name="input-variables" multiple="multiple"
+        option values="gender" Gender
+        option values="pocode" IsWeekend
 
   hr
 
@@ -69,25 +71,22 @@ form class="form-horizontal"
       table
         tr 
           td
-            a href="#" template 320x250
+            a href="#" Expandable Banner 300x50px MMA, product display
         tr
           td
-            a href="#" template 320x50
+            a href="#" Expandable Banner 320x50px IAB, product display
         tr
           td
-            a href="#" template 1024x768
+            a href="#" Expandable Banner 300x50px MMA, branding
         tr
           td
-            a href="#" template 1024x1024
+            a href="#" Expandable Banner 320x50px IAB, branding
         tr
           td
-            a href="#" template 768x1024
+            a href="#" Expandable Banner 300x50px MMA, product offer
         tr
           td
-            a href="#" template 768x90
-        tr
-          td
-            a href="#" template 728x90
+            a href="#" Expandable Banner 320x50px IAB, product offer
 
   div class="form-group"
 
@@ -167,8 +166,12 @@ form class="form-horizontal"
             a href="#" Gender:female, IsWeekend:true
 
 
-    div class="col-md-7" id="tmpl-preview-list-rules"
-
+    div class="col-md-4" id="tmpl-preview-list-rules"
+      span id="creative-template-preview" style="width:320px;height:100px;"
+        img id="logo" style="position:absolute;top:0px;left:0px;" src="creative_parts/{{.logo}}"
+        img id="image" style="position:absolute;top:0px;left:60px;" src="creative_parts/{{.image}}"
+        div id="text" style="position:absolute;top:15px;left:65px;color:white;font-size:12px;text:{{.text}};"{{.text}}
+        div id="price" style="position:absolute;top:29px;left:65px;color:white;font-size:16px;text:{{.price}};" {{.price}}
 
   hr
 
