@@ -6,7 +6,7 @@ configure do
 end
 
 get '/' do
-  "pipabu!"
+  slim :index
 end
 
 # See all campaigns related to the user
