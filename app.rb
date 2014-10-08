@@ -9,10 +9,15 @@ get '/' do
   slim :index
 end
 
+get '/login' do
+  slim :login
+end
+
 # See all campaigns related to the user
 get '/campaigns' do
   slim :campaigns_list
 end
+
 
 # submit a new campaign to generate the json,
 # launch the server 
