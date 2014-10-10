@@ -1,3 +1,5 @@
 == README
 
 Campaign Dashboard
+
+Sinatra + Ractive.js
