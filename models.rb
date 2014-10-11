@@ -1,11 +1,13 @@
 require 'rubygems'
+require 'mysql'
 require 'sequel'
 
 Sequel::Model.plugin(:schema)
+gem('mysql')
 DB = Sequel.connect(:adapter => 'mysql', 
                     :host => 'localhost', 
                     :database => 'attalon',
-                    :user => 'root',
+                    :username => 'root',
                     :password=>'')
 
 unless DB.table_exists?(:ads)
