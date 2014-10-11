@@ -60,4 +60,18 @@ unless DB.table_exists?(:currencies)
   end
 end
 
+class Ad < Sequel::Model(:ads)
+end
+
+class Campaign < Sequel::Model(:campaigns)
+end
+
+class CreativeTemplate < Sequel::Model(:creative_templates)
+end
+
+class CampaignType < Sequel::Model(:campaign_types)
+end
+
+class Currency < Sequel::Model(:currencies)
+end
 
