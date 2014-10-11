@@ -1,5 +1,6 @@
 require 'sinatra'
 require 'slim'
+require_relative 'models'
 
 configure do
   set :public_folder, 'public'
