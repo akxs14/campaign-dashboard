@@ -7,3 +7,5 @@ gem 'slim'
 
 gem 'sequel'
 gem 'mysql'
+
+gem 'bcrypt'

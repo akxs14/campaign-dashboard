@@ -1,6 +1,22 @@
+require 'rubygems'
 require 'sinatra'
 require 'slim'
+require 'bcrypt'
 require_relative 'models'
+
+enable :sessions
+
+userTable = {}
+
+helpers do
+  def login?
+    session[:username].nil? ? false : true 
+  end
+
+  def username
+    session[:username]
+  end
+end
 
 configure do
   set :public_folder, 'public'
@@ -16,6 +32,8 @@ end
 
 # See all campaigns related to the user
 get '/campaigns' do
+  # fortose tis kampanies tou xristi kai vale tes
+  # stin lista
   slim :campaigns_list
 end
 
@@ -23,14 +41,16 @@ end
 # submit a new campaign to generate the json,
 # launch the server 
 post '/campaigns' do
-
+  # dimiourgise kainourgia kampania
 end
 
 # show the new campaign page
 get '/campaigns/new' do
+  # fortose templates
   slim :campaigns_new
 end
 
 # show the panel with the campaign details
 get '/campaigns/:id' do
+  # fortose stoixeia kampanias
 end
