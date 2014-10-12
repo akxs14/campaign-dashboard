@@ -6,8 +6,6 @@ require_relative 'models'
 
 enable :sessions
 
-userTable = {}
-
 helpers do
   def login?
     session[:username].nil? ? false : true 
@@ -54,3 +52,10 @@ end
 get '/campaigns/:id' do
   # fortose stoixeia kampanias
 end
+
+post "/login" do
+  
+end
+
+
+
