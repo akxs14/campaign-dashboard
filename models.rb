@@ -62,6 +62,21 @@ unless DB.table_exists?(:currencies)
   end
 end
 
+unless DB.table_exists?(:users)
+  DB.create_table :users do
+    primary_key :id
+    String      :username
+    String      :passwordhash
+    String      :salt
+    String      :name
+    String      :email
+    String      :telephone
+    String      :country
+    String      :address
+    String      :city
+  end
+end
+
 class Ad < Sequel::Model(:ads)
 end
 
@@ -77,3 +92,5 @@ end
 class Currency < Sequel::Model(:currencies)
 end
 
+class User < Sequel::Model(:users)
+end
