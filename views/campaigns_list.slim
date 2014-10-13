@@ -15,12 +15,12 @@ div class="panel-group" id="accordion"
         h4 class="panel-title"
           a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#101"
             div
-              div class="campaign-id-cell" 101
+              div class="campaign-id-cell" = campaign[:id]
               div class="campaign-name-cell"
-                span Easyjet September 2014
+                span = campaign[:title]
                 i class="indicator glyphicon glyphicon-chevron-right pull-right"
               div
-              div class="campaign-status-cell" active
+              div class="campaign-status-cell" = campaign[:status]
               div class="campaign-rem-days-cell" 25
               img class="campaign-state-cell" src="images/green.png"
 
