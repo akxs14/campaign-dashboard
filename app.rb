@@ -30,8 +30,7 @@ end
 
 # See all campaigns related to the user
 get '/campaigns' do
-  # fortose tis kampanies tou xristi kai vale tes
-  # stin lista
+  @campaigns = DB[:campaigns]
   slim :campaigns_list
 end
 
