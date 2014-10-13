@@ -30,8 +30,7 @@ end
 
 # See all campaigns related to the user
 get '/campaigns' do
-  camps = DB[:campaigns]
-  @campaigns = camps.all
+  @campaigns = DB[:campaigns].all
   slim :campaigns_list
 end
 
