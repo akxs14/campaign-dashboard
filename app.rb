@@ -3,6 +3,7 @@ require 'sinatra'
 require 'slim'
 require 'bcrypt'
 require_relative 'models'
+require_relative 'timedate'
 
 enable :sessions
 
@@ -31,6 +32,7 @@ end
 # See all campaigns related to the user
 get '/campaigns' do
   @campaigns = DB[:campaigns].all
+  @day_secs = 60 * 60 * 24
   slim :campaigns_list
 end
 
