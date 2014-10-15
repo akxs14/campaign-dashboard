@@ -22,7 +22,7 @@ div class="panel-group" id="accordion"
               div
               div class="campaign-status-cell" = campaign[:status]
               div class="campaign-rem-days-cell" = remaining_days(campaign[:end_date],campaign[:start_date])
-              img class="campaign-state-cell" src="images/green.png"
+              img class="campaign-state-cell" src== campaign_status(campaign[:end_date],campaign[:start_date])
 
       div id="101" class="panel-collapse collapse"
         div class="panel-body container"
