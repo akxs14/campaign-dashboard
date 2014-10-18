@@ -45,7 +45,7 @@ end
 
 # show the new campaign page
 get '/campaigns/new' do
-  # fortose templates
+    @campaigns = DB[:creative_templates].all
   slim :campaigns_new
 end
 
