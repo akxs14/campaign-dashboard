@@ -45,7 +45,8 @@ end
 
 # show the new campaign page
 get '/campaigns/new' do
-  @campaign_types = DB[:campaign_types].all  
+  @campaign_types = DB[:campaign_types].all
+  @currencies = DB[:currencies].all
   @creative_templates = DB[:creative_templates].all
   slim :campaigns_new
 end

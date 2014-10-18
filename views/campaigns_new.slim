@@ -24,9 +24,8 @@ form class="form-horizontal"
     label class="col-xs-4 control-label" for="currency" Currency
     div class="col-xs-4"
       select id="currency" name="currency" class="form-control"
-        option value="eur" EUR - €
-        option value="usd" USD - $
-        option value="gbp" GBP - £
+        - @currencies.each do |currency|
+          option value="=#{currency[:id]}" = "#{currency[:name]} - #{currency[:symbol]}"
 
   div class="form-group"
     label class="col-xs-4 control-label" for="monetary-budget" Monetary Budget
@@ -69,24 +68,10 @@ form class="form-horizontal"
     label class="col-xs-4 control-label" for="ad-format" Selected Ad Format 
     div class="col-xs-8" id="templates-grid"
       table
-        tr 
-          td
-            a href="#" Expandable Banner 300x50px MMA, product display
-        tr
-          td
-            a href="#" Expandable Banner 320x50px IAB, product display
-        tr
-          td
-            a href="#" Expandable Banner 300x50px MMA, branding
-        tr
-          td
-            a href="#" Expandable Banner 320x50px IAB, branding
-        tr
-          td
-            a href="#" Expandable Banner 300x50px MMA, product offer
-        tr
-          td
-            a href="#" Expandable Banner 320x50px IAB, product offer
+        - @creative_templates.each do |creative_template|
+          tr
+            td
+              a href="#" = creative_template[:description]
 
   div class="form-group"
 
