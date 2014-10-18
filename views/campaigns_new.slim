@@ -11,8 +11,8 @@ form class="form-horizontal"
     label class="col-xs-4 control-label" for="campaign-type" Campaign Type
     div class="col-xs-4"
       select id="campaign-type" name="campaign-type" class="form-control"
-        option value="CPM" CPM
-        option value="CPC" CPC
+        - @campaign_types.each do |campaign_type|
+          option value="=#{campaign_type[:id]}" = campaign_type[:name]
 
   div class="form-group"
     label class="col-xs-4 control-label" for="action-budget" Monetary Budget
