@@ -76,17 +76,24 @@ $(document).ready(function() {
     ]
   };  
 
-  var pastDayCtx = document.getElementById("pastDayGraph").getContext("2d");
-  var pastDayChart = new Chart(pastDayCtx).Line(data, options);
+  // var pastDayCtx = document.getElementById("pastDayGraph").getContext("2d");
+  // var pastDayChart = new Chart(pastDayCtx).Line(data, options);
 
-  var todayCtx = document.getElementById("todayGraph").getContext("2d");
-  var todayChart = new Chart(todayCtx).Line(data, options);
+  // var todayCtx = document.getElementById("todayGraph").getContext("2d");
+  // var todayChart = new Chart(todayCtx).Line(data, options);
 
-  var overallCtx = document.getElementById("overallGraph").getContext("2d");
-  var overallChart = new Chart(overallCtx).Line(data, options);
+  // var overallCtx = document.getElementById("overallGraph").getContext("2d");
+  // var overallChart = new Chart(overallCtx).Line(data, options);
+
+  var ractive = new Ractive({
+    el: 'add-variable-container',
+    template: '#add-variable-script',
+    data: {  }
+  });
+
+  ractive.on('addVariable', function(event) {
+    console.log('clicked');
+  });
 
 });
 
-ractive.on('addVariable', function(event) {
-  alert('clicked');
-});

@@ -47,20 +47,22 @@ form class="form-horizontal"
 
   hr
 
-  div class="form-group"
-    label class="col-xs-4 control-label" for="add-input-var" Add Input Variable
-    div class="col-xs-6"
-      input id="add-input-var" name="add-input-var" type="text" placeholder="placeholder" class="form-control input-md"
-    div class="col-xs-2"
-      button id="cmd-add-input-var" name="cmd-add-input-var" class="btn btn-primary" on-click="addVariable" Add
+  div id="add-variable-container"
 
-  div class="form-group"
-    label class="col-xs-4 control-label" for="input-variables" Input Variables
-    div class="col-xs-8"
-      select class="form-control" id="input-variables" name="input-variables" multiple="multiple"
-        option values="gender" Gender
-        option values="pocode" IsWeekend
+  // ractive will load the template in the div above
+  script id="add-variable-script" type="text/ractive"
+    div class="form-group"
+      label class="col-xs-4 control-label" for="add-input-var" Add Input Variable
+      div class="col-xs-6"
+        input id="add-input-var" name="add-input-var" type="text" placeholder="placeholder" class="form-control input-md"
+      div class="col-xs-2"
+        button type="button" id="cmd-add-input-var" name="cmd-add-input-var" class="btn btn-primary" on-click="addVariable" Add
 
+    div class="form-group"
+      label class="col-xs-4 control-label" for="input-variables" Input Variables
+      div class="col-xs-8"
+        select class="form-control" id="input-variables" name="input-variables" multiple="multiple"
+          option values="gender" Gender
   hr
 
   <!-- prepei na valw ta templates edw -->
