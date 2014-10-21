@@ -78,6 +78,7 @@ $(document).ready(function() {
 
   $('#cmd-add-input-var').click(function() {
     $("#input-variables").append("<option value='pipa'>" + $("#add-input-var").val() + "</option>");
+    $("#add-input-var").val("");
   });
 
   $('#cmd-clear-input-vars').click(function() {
