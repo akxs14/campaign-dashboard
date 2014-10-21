@@ -86,3 +86,7 @@ $(document).ready(function() {
   var overallChart = new Chart(overallCtx).Line(data, options);
 
 });
+
+ractive.on('addVariable', function(event) {
+  alert('clicked');
+});
