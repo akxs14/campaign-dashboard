@@ -80,6 +80,10 @@ $(document).ready(function() {
     $("#input-variables").append("<option value='pipa'>" + $("#add-input-var").val() + "</option>");
   });
 
+  $('#cmd-clear-input-vars').click(function() {
+    $("#input-variables").html("");
+  });
+
   // var pastDayCtx = document.getElementById("pastDayGraph").getContext("2d");
   // var pastDayChart = new Chart(pastDayCtx).Line(data, options);
 
