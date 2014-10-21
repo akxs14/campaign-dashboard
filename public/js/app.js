@@ -76,6 +76,10 @@ $(document).ready(function() {
     ]
   };  
 
+  $('#cmd-add-input-var').click(function() {
+    $("#input-variables").append("<option value='pipa'>" + $("#add-input-var").val() + "</option>");
+  });
+
   // var pastDayCtx = document.getElementById("pastDayGraph").getContext("2d");
   // var pastDayChart = new Chart(pastDayCtx).Line(data, options);
 
@@ -85,15 +89,21 @@ $(document).ready(function() {
   // var overallCtx = document.getElementById("overallGraph").getContext("2d");
   // var overallChart = new Chart(overallCtx).Line(data, options);
 
-  var ractive = new Ractive({
-    el: 'add-variable-container',
-    template: '#add-variable-script',
-    data: {  }
-  });
+  // var ractive = new Ractive({
+  //   el: 'add-variable-container',
+  //   template: '#add-variable-script',
+  //   data: { 
+  //     newVariable: '',
+  //     inputVariables: [ {name:'pipa'} ] 
+  //   }
+  // });
 
-  ractive.on('addVariable', function(event) {
-    console.log('clicked');
-  });
+  // ractive.on('addVariable', function(event) {
+  //   var newVar = ractive.get('newVariable');
+  //   var existingVariables = ractive.get('inputVariables');
+  //   // ractive.set('inputVariables', existingVariables + newVar);
+  //   console.log(newVar);
+  // });
 
 });
 
